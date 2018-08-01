@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'modules' => array(
+        "admin",
+        "emailtemplate",
+        'contactrequest',
+        'faq',
+        'testimonial',
+        'blog',
+        'gallery',
+        'attribute',
+        'category',
+        'socialconnect',
+        'ims',
+        'newsletter',
+        'project',
+        'product',
+        'coupon',
+        'wishlist',
+        'gallery',
+        'rivaah',
+        'cart',
+        'giftcard',
+        'box',
+        'paper',  
+        'display',
+        'contentpage',
+	'inventory',
+        'story',
+        'bookappointment',
+        'artist',
+	 // It must include always in last
+    ),
+    'front-view-layout-location' => 'layouts.app',
+    'front-left-view-layout-location' => 'layouts.front-left',
+    'back-view-layout-location' => 'layouts.admin',
+    'back-view-layout-login-location' => 'layouts.admin-login',
+    'back-left-view-layout-location' => 'layouts.admin-left'
+];

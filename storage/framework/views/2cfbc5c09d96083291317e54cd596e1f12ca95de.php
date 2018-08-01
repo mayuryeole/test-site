@@ -1,0 +1,2 @@
+<p>Dear Admin, A user <?php echo e($USER_NAME); ?> has submit an contact request. Please check admin Panel and manage accordingly Below are the contact request details:- Name: <?php echo e($USER_NAME); ?> Email: <?php echo e($USER_EMAIL); ?> Phone: <?php echo e($USER_PHONE); ?> Category: <?php echo e($CATEGORY); ?> SUBJECT: <?php echo e($SUBJECT); ?> Message: <?php echo e($MESSAGE); ?> REFERENCE No: <?php echo e($REFERENCE); ?> Thanks,<br />
+<?php echo e($SITE_TITLE); ?></p>
